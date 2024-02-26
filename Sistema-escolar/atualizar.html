@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Atualizar dados</title>
+    
+</head>
+<body>
+    <form action="atualizar.php" method="post">
+        <div class="textfield">
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula"
+             name="matricula" required placeholder="Matrícula">
+            </div>
+            <div class="textfield">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Nome completo">
+            </div>
+            <div class="textfield">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00">
+            </div>
+            <div class="textfield">
+            <label for="turma">Turma:</label>
+            <input type="text" id="turma" name="turma" required placeholder="HT-SIS-000">
+            </div>
+            <div class="textfield">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="8 caractéres">
+            </div>
+            <input class="btn-login" type="submit" value="Atualizar">
+        
+    </form>
+    
+</body>
+</html>
