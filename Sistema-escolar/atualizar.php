@@ -17,13 +17,13 @@
     $turma = $_POST['turma'];
     $senha = $_POST['senha'];
 
-    $atualizar = mysqli_querry($connection, "UPDATE cadastrar_aluno 
+    $atualizar = mysqli_query($connection, "UPDATE cadastrar_aluno 
                                 SET matricula = '$matricula'
                                 nome = '$nome'
                                 cpf = '$cpf'
                                 turma = '$turma'
                                 senha = '$senha'
-                                 Where cadastro_aluno = '$cadastro_aluno'");
+                                Where matricula_aluno = '$matricula_aluno'");
     echo "Aluno atualizado com sucesso";
 
 ?>
